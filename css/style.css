@@ -1,12 +1,109 @@
+
+@media (max-width: 375px) {
+
+
+
+.main-container {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+.image-container {
+        border-radius: 20px;
+        margin-top: 25px;
+        margin-left: 15px;
+    }
+.image-container img {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+    }
+.perfume {
+        margin-left: 20px;
+        width: 320px;
+        
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+        color: hsl(228, 12%, 48%);
+    }
+.title h1 {
+        
+        width: 100%;
+        height: 100%;
+        font-size: 500;
+        font-family: 'Fraunces', serif;
+        margin-left: 20px;
+        margin-top: -10px;
+    }
+.price-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content:flex-end;
+
+    }
+.price {
+        display: flex;
+        flex: row;
+        margin-top: -14px;
+    }
+.price-green {
+    font-family: 'Fraunces', serif;
+    font-size: 35px;
+    font-weight: bolder;
+    margin-left: 20px;
+    color:hsl(158, 36%, 37%) ;
+    }
+.price-normal {
+        margin-top: 55px;
+        margin-left: 25px;
+        text-decoration:line-through;
+        color: hsl(228, 12%, 48%);
+    }
+    
+.paragraph {
+        font-family: 'Montserrat', sans-serif;
+        color: hsl(228, 12%, 48%);
+        margin-left: 20px;
+    }
+
+.button {
+    font-family: 'Montserrat', sans-serif;
+    justify-items: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: -10px;
+    background-color: hsl(158, 36%, 37%);
+    border-style: none;
+    border-radius: 12px;
+    color: white;
+    height: 50px;
+    width: 200px;
+    font-size: medium;
+    }
+
+.button svg {
+        margin-top: 4px;
+        margin-right: 10px;
+        
+    }
+}
+
+
 @media (min-width: 376px) {
 body{
-    background-color: blanchedalmond;
+    background-color:blanchedalmond;
+}
+.flex-main {
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+
 }
 .main-container {
     display: grid;
-    height: 420px;
-    width: 650px;
-    border-left: 300px;
+    width: 625px;
+    height: 445px;
     grid-template-columns: 1fr 300px 300px 50px 50px 1fr;
     grid-template-rows: 1fr 60px 1fr 100px 100px 60px 60px;
     background-color: white;
@@ -103,26 +200,3 @@ body{
 
 
 
-
-
-
-
-
-
-
-
-@media (max-whidth: 375px) {
-
-
-.main-container {
-    display: flex;
-    flex-flow: row wrap;
-}
-
-.image-container {
-    border-radius: 30px;
-    margin-top: 25px;
-    margin-left: 15px;
-}
-
-}
